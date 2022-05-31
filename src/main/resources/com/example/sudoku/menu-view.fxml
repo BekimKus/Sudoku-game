@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.sudoku.Controller"
+      prefHeight="613.0" prefWidth="513.0"
+      alignment="CENTER" spacing="20.0" >
+
+    <Label text="Main menu" textFill="#333" style="-fx-font-weight: bold;">
+        <font>
+            <Font name="Caliblri" size="28.0" />
+        </font>
+    </Label>
+
+    <Label text="Chose difficult" textFill="#333" >
+        <font>
+            <Font name="Caliblri" size="22.0" />
+        </font>
+    </Label>
+
+    <Button text="Easy" onAction="#switchToGameSceneEasy">
+        <font>
+            <Font name="Caliblri" size="18.0" />
+        </font>
+    </Button>
+
+    <Button text="Medium" onAction="#switchToGameSceneMedium">
+        <font>
+            <Font name="Caliblri" size="18.0" />
+        </font>
+    </Button>
+
+    <Button text="Hard" onAction="#switchToGameSceneHard">
+        <font>
+            <Font name="Caliblri" size="18.0" />
+        </font>
+    </Button>
+
+    <Label text="Click this button if you don't know how to play Sudoku" textFill="#333" >
+        <font>
+            <Font name="Caliblri" size="18.0" />
+        </font>
+    </Label>
+
+    <Button text="Sudoku rules" onAction="#showSudokuRules">
+        <font>
+            <Font name="Caliblri" size="16.0" />
+        </font>
+    </Button>
+</VBox>

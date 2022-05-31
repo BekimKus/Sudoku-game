@@ -1,0 +1,12 @@
+
+============================================================================================
+Шаблоны таблиц
+results
+id  | date_time     | game time  | complexity  | unraveled numbers | number to win | joke id
+----+---------------+------------+-------------+-------------------+---------------+--------
+int | smalldatetime | varchar(8) | varchar (8) | int               | int           | int
+
+jokes
+id  | joke_text
+----+--------------
+int | varchar(1024)
